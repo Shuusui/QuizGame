@@ -15,8 +15,9 @@ class QUIZGAME_API AQuizGameGameModeBase : public AGameModeBase
 	GENERATED_BODY()
 	
 public: 
+
+
 	UPROPERTY(BlueprintReadWrite)
-	int m_WrongAnswerCount = 0;
-	
+		int m_WrongAnswerCount = 0;
 	
 };
